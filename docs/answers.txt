@@ -1,1 +1,37 @@
+A.
+Alexiss-MacBook-Pro:Assignment1 alexistaylor$ git push origin master
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 787 bytes | 787.00 KiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/alexismtaylor/Assignment1.git
+   fbdbe93..66586a7  master -> master
 
+B. 9 commits so far 
+   Command used: git rev-list --all --count
+
+C. Wed Sep 27 16:31:42 2017
+   Command used: git log --follow .gitignore
+
+D. 36a8e55e4bbdd171ab57d979e1a802d740f2db9b and cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+
+E. Using branches in a Git repository is useful because you can separate certain 
+tasks into specific branches so you can revert history back before you changed
+certain code. Another useful reason is so if there are multiple people working
+on one project, each person's code can be separated in case they are working
+on different things so one thing doesn't mess up another person's code.
+
+F. Git status displays the differences between the index file your current HEAD, paths that have
+differences between the working tree and the index file, and paths in the working
+tree that are not tracked by Git yet.
+Git Log just shows everything that has been committed already.
+
+G. git log --follow Weapon.h
+
+H. git log --all --grep='file'
+
+I. Inheritance is when classes can contain properties, or methods from other classes.
+Polymorphism is when a parent class is used to refer to a child class object.
+Encapsulation is when you wrap variables and methods together as a single unit.
