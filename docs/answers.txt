@@ -35,3 +35,8 @@ H. git log --all --grep='file'
 I. Inheritance is when classes can contain properties, or methods from other classes.
 Polymorphism is when a parent class is used to refer to a child class object.
 Encapsulation is when you wrap variables and methods together as a single unit.
+
+Question 7: This RoleGame prototype uses polymorphism because the Weapon class is 
+regering to a child class object in the WeaponFactory.cpp file. It is also using
+encapsulation because the weapon class contains methods and variables that are 
+all wraped up together inside a single class.
